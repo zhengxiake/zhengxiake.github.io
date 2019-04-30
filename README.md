@@ -1,56 +1,29 @@
-## web前端工程师简历
+### 在线预览
+[https://eternityspring.github.io/dist/](https://eternityspring.github.io/dist/)
+## 源泉
+~~一个追求专业的前端开发者。~~
 
-### 项目地址：http://www.flqin.com
+不知不觉工作好多年了。现在也不仅仅研究前端了。其实最不愿意更新的就是这个项目了。因为更新这个项目就说明要劳民伤财的去讨工作。但是很多时候也是没办法哟。所以这不就来更新一波了。
+## 简介
+### 初始化项目
+clone项目
 
-#### （2015版）项目地址：http://www.flqin.com/2015/
+    npm install
+### 运行
+    npm serve
+### 编译
+    npm build
+访问：http://localhost:8080/
+### 制作自己的简历
+找到resume.json文件，按照自己的情况修改相应的信息即可。
+### 打印预览
+打开上述链接，在浏览器中按
+    ctrl+p
+## 计划
+目前配色以黑色为主色调，可能并不适合所有人的审美。后续会在<a href="http://79px.com">http://79px.com</a>做一个相关文档，介绍本项目的详细制作过程。敬请关注！
+## 其他
+蓝色主题版：自行修改 ./scss/style.scss 中的变量。
 
-#### 百度搜索: [web前端工程师简历](https://www.baidu.com/s?ie=UTF-8&wd=web%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%AE%80%E5%8E%86)
-
-![](https://raw.githubusercontent.com/zhaoky/flqin/master/src/img/web.jpg)
-
-### MISC
-
-很多朋友给我发邮件学习怎么制作这样的简历，其实你只需要将本项目fork，查看代码就可以了！
-
-有任何疑问和建议请直接在此评论，互相学习，共同进步！
-
-也欢迎朋友们加入Q群：[Fe.d小分队](http://t.cn/RtlQbTq),里面有众多未来大牛及海量学习资源，是一个前端初学者的学习交流平台。
-
-喜欢请点个star吧!
-
->不会用git？请学习廖老师的[git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-
-### branch
-* master 
-
-    + 上线产品级代码
-* 2015.07（老分支）
-
-    + 2015年版简历
-    + 采用jQuery,fullPage.js开发
-* dev（开发分支）
-
-    + 2017年版简历
-    + 采用ES6,angularJS 1.x,gulp,less,webpack开发构建
-    + 不断更新优化中    
-
-### 准备环境 
-
-    1.安装 node.js  
-    2.安装 gulp 全局的命令行接口  
-    执行命令: `npm install gulp -g`
-
-### 项目初始化 
-
-    安装 node package modules
-    执行命令: `npm install`    
-    
-### 开启服务器开始构建开发
-
-    1.npm install
-    
-    2.gulp dd
-    
-### 构建产品级上线代码
-
-    gulp dd -p   
+注意：这里用了很多css3，并不支持低版本ie。目前只自测过chrome。为了保护个人隐私，这里在展示的时候用的是网名，打印时候显示真实名字。
+## License
+CC BY 4.0  [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
